@@ -1,0 +1,38 @@
+
+body{
+  display: flex;
+  background-color: cornflowerblue;
+  justify-content: center;
+}
+
+p{
+  color: gray;
+  font-size: 18px;
+}
+
+h3{
+  font-family: Arial;
+}
+
+main{
+  display: flex;
+  background-color: white;
+  margin: 50px;
+  width: 28%;
+  flex-direction: column;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid #e7e4e4;
+}
+
